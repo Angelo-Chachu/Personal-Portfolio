@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-app.use(express.static(__dirname + '/dist/portfolio'));
+app.use(express.static(__dirname + '/dist/Personal-Portfolio'));
 app.get('/*', function(req,res) {
-res.sendFile(path.join(__dirname+'/dist/portfolio/index.html'));})
+res.sendFile(path.join(__dirname+'/dist/Personal-Portfolio/index.html'));})
 app.listen(process.env.PORT || 4200);
