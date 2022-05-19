@@ -1,0 +1,73 @@
+
+.meee
+{
+    border-radius: 20px ;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width:75px;
+    position: absolute;
+    margin-left: 3rem;
+} 
+
+.let
+{
+    margin-left: 10rem; 
+}
+
+.unl
+{
+    width:25%;
+    margin-right: 50rem;
+    margin-left:8.5rem;
+
+}
+.nul{
+    background-color:rgb(209, 209, 209);
+}
+.null
+{
+    width: 90%;
+    margin-left: 8rem;
+    /* color: rgb(194, 194, 194); */
+   
+}
+.mil
+{
+    background-color:rgb(209, 209, 209); 
+      
+
+}
+
+.btn
+{
+    width: 10.5%;
+    margin-left: 42%;
+    /* margin-right: 10rem; */
+    
+}
+textarea
+{
+    width: 42.5%;
+    height:18rem;
+    margin-left: 8rem;
+    margin-right: 17.5rem;
+    background-color: rgb(209, 209, 209);
+}
+.lbl
+{
+    margin-left: 8rem; 
+}
+
+.info
+{
+    margin-left: 50rem;
+    margin-right: 20rem;
+    margin-bottom: -20rem;
+    position: absolute;
+    margin-top: 6rem;
+    background-color:rgb(209, 209, 209);
+    width: 22%;
+}
+.contacts
+{
+    background-color:#a5b8cf ;
+}

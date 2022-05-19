@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AboutComponent } from './Components/about/about.component';
+import { AboutComponent } from './component/about/about.component';
 import { AbtPageComponent } from './Components/abt-page/abt-page.component';
 import { ContactsComponent } from './Components/contacts/contacts.component';
 import { ExperinceComponent } from './Components/experince/experince.component';
