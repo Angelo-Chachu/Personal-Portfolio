@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './component/about/about.component';
-import { AbtPageComponent } from './Components/abt-page/abt-page.component';
-import { ContactsComponent } from './Components/contacts/contacts.component';
-import { ExperinceComponent } from './Components/experince/experince.component';
-import { LandingPageComponent } from './Components/landing-page/landing-page.component';
-import { LangdingPageComponent } from './Components/langding-page/langding-page.component';
-import { NavBarComponent } from './Components/nav-bar/nav-bar.component';
-import { SkiilsComponent } from './Components/skiils/skiils.component';
+import { AbtPageComponent } from './component/abt-page/abt-page.component';
+import { ContactsComponent } from './component/contacts/contacts.component';
+import { ExperinceComponent } from './component/experince/experince.component';
+import { LandingPageComponent } from './component/landing-page/landing-page.component';
+import { LangdingPageComponent } from './component/langding-page/langding-page.component';
+import { NavBarComponent } from './component/nav-bar/nav-bar.component';
+import { SkiilsComponent } from './component/skiils/skiils.component';
 
 const routes: Routes = [
   {
