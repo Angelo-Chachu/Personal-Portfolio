@@ -1,4 +1,4 @@
-img
+/* img
 {
 
     width:400;
@@ -12,8 +12,9 @@ img
 card-text
 {
     width: 30rem;
-}
-.card
+} */
+
+/* .card
 {
     margin-left: 20%;
     background-color: #d5dbe2;
@@ -21,12 +22,12 @@ card-text
     margin-top: 20%;
     margin-bottom: 30%;
    
-}
+} */
 .download-cv-btn{
-    position: absolute;
+    /* position: absolute;
     bottom: 20px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%); */
     padding: 10px 20px;
     color: #fff;
     border: none;
@@ -35,14 +36,46 @@ card-text
     cursor: pointer;
     transition: .5s;
     background: rgba(0, 0, 0, 0.5);
+    /* margin-top: 20rem; */
+    margin-bottom: 5rem;
 }
 
 .download-cv-btn:hover{
     background: #000;
 }
-.nill
+.container
 {
-   background-color: #a5b8cf;  
-   
-
+    background-color: #f4f9fd;
 }
+.img-cont
+{
+   border-radius: 50%;
+   max-width: 300px;
+   width:100%;
+   overflow:hidden;
+}
+
+.img
+{
+  width: 100%;
+}
+ .about
+ {
+     margin-left: 20rem;
+     margin-bottom:30rem;
+     bottom: 20px;;
+ }
+ .abt{
+    text-align: center;
+    font-size: 60px;
+    color: #112B3C;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 100px;
+ }
+ /* .para
+ {
+     margin-left:0rem;
+ } */
+
+ 

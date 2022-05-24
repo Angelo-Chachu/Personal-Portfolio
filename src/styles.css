@@ -1,6 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 html, body{
-
-    background-color:#a5b8cf ;
+    background-color:#e6e9eb;
 }

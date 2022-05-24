@@ -15,9 +15,9 @@
 
 .unl
 {
-    width:25%;
-    margin-right: 50rem;
-    margin-left:8.5rem;
+    /* width:25%;
+    margin-right: 50rem; */
+    /* margin-left:8.5rem; */
 
 }
 .nul{
@@ -25,8 +25,8 @@
 }
 .null
 {
-    width: 90%;
-    margin-left: 8rem;
+    /* width: 90%; */
+    /* margin-left: 8rem; */
     /* color: rgb(194, 194, 194); */
    
 }
@@ -39,35 +39,61 @@
 
 .btn
 {
-    width: 10.5%;
-    margin-left: 42%;
-    /* margin-right: 10rem; */
+    width: 19.5%;
+    margin-left: 13px;
+    background-color: #ef476f;
+    
     
 }
+
+.textArea-cont{
+    width: 100%;
+    max-width: 535px;
+}
+
 textarea
 {
-    width: 42.5%;
+    /* width: 77.5%; */
     height:18rem;
-    margin-left: 8rem;
-    margin-right: 17.5rem;
+    /* margin-left: 8rem;
+    margin-right: 17.5rem; */
     background-color: rgb(209, 209, 209);
 }
 .lbl
 {
-    margin-left: 8rem; 
+    margin-left: 0rem; 
 }
 
 .info
 {
-    margin-left: 50rem;
+    /* margin-left: 50rem;
     margin-right: 20rem;
     margin-bottom: -20rem;
     position: absolute;
-    margin-top: 6rem;
-    background-color:rgb(209, 209, 209);
-    width: 22%;
+    margin-top: 6rem; */
+    /* background-color:rgb(209, 209, 209); */
+    /* max-width: 280px;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 600px; */
+    /* border: 1px solid red; */
+    margin-right: -40rem;
+    margin-top: -10rem; 
 }
 .contacts
 {
-    background-color:#a5b8cf ;
+    background-color:#bfc6cc; 
+}
+.container
+{
+    margin-right: -10%;
+}
+.cont
+{
+    text-align: center;
+    font-size: 60px;
+    color: #112B3C;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 100px;
 }

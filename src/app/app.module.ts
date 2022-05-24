@@ -11,6 +11,7 @@ import { NavBarComponent } from './component/nav-bar/nav-bar.component';
 import { AbtPageComponent } from './component/abt-page/abt-page.component';
 import { ContactsComponent } from './component/contacts/contacts.component';
 import { ExperinceComponent } from './component/experince/experince.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ExperinceComponent } from './component/experince/experince.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
