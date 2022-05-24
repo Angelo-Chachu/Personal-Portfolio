@@ -1,0 +1,53 @@
+/* .mix
+{
+  max-width:180px;
+  width:100%
+}
+.mix
+ carousel-item
+{
+  max-width:200px;
+  border-radius:50px;
+} */
+.skill-section{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+.carousel-item{
+  max-width: 300px;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.mix{
+ max-width: 300px;
+ width: 100%
+}
+
+@media screen and (max-width:768px) {
+  .carousel-inner{
+      display: flex; 
+      flex-direction: column
+  }
+
+  /* .about-img{
+      width: 100%;
+      height: 25rem;
+      border-radius: 20px;
+  } */
+
+}
+.heading
+{
+  text-align: center;
+    font-size: 60px;
+    color: #112B3C;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+
+.w-100{
+ width: 300px !important; 
+}
