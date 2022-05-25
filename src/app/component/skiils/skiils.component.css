@@ -1,43 +1,28 @@
-/* .mix
-{
-  max-width:180px;
-  width:100%
-}
-.mix
- carousel-item
-{
-  max-width:200px;
-  border-radius:50px;
-} */
+
 .skills-section{
   position: relative;
   height: 100vh;
   width: 100%;
 }
-.carousel-item{
+/* .carousel-item{
   max-width: 300px;
   width: 100%;
   border-radius: 50px;
-}
+} */
 
 .mix{
  max-width: 300px;
  width: 100%
 }
 
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
   .carousel-inner{
       display: flex; 
       flex-direction: column
   }
 
-  /* .about-img{
-      width: 100%;
-      height: 25rem;
-      border-radius: 20px;
-  } */
-
-}
+ 
+} */
 .heading
 {
   text-align: center;
@@ -50,4 +35,81 @@
 
 .w-100{
  width: 300px !important; 
+}
+body {
+  margin: 0;
+  background: lightgray;
+  text-align: center;
+  font-family: sans-serif;
+  color: #fefefe;
+}
+.container {
+  position: relative;
+  width: 320px;
+  margin: 100px auto 0 auto;
+  perspective: 1000px;
+}
+
+.carousel {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d; 
+  animation: rotate360 60s infinite forwards linear;
+}
+.carousel__face { 
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: 20px;
+  left: 10px;
+  right: 10px;
+  background-size: cover;
+  /* box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.5); */
+  display: flex;
+}
+
+span {
+  margin: auto;
+  font-size: 2rem;
+}
+
+
+.carousel__face:nth-child(1) {
+  background-image: url("../../../assets/html.png");
+  transform: rotateY(  0deg) translateZ(430px); }
+.carousel__face:nth-child(2) { 
+  background-image: url("../../../assets/css3.png");
+    transform: rotateY( 40deg) translateZ(430px); }
+.carousel__face:nth-child(3) {
+  background-image: url("../../../assets/javascript3.png");
+  transform: rotateY( 80deg) translateZ(430px); }
+.carousel__face:nth-child(4) {
+  background-image: url("../../../assets/node.png");
+  transform: rotateY(120deg) translateZ(430px); }
+.carousel__face:nth-child(5) { 
+  background-image: url("../../../assets/bootstrap.png");
+ transform: rotateY(160deg) translateZ(430px); }
+.carousel__face:nth-child(6) { 
+  background-image: url("../../../assets/pgadmin.png");
+ transform: rotateY(200deg) translateZ(430px); }
+.carousel__face:nth-child(7) { 
+  background-image: url("../../../assets/javascript.png");
+ transform: rotateY(240deg) translateZ(430px); }
+.carousel__face:nth-child(8) {
+  background-image: url("../../../assets/angular.png");
+  transform: rotateY(280deg) translateZ(430px); }
+.carousel__face:nth-child(9) {
+  background-image: url("../../../assets/c++.png");
+  transform: rotateY(320deg) translateZ(430px); }
+
+
+
+@keyframes rotate360 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-360deg);
+  }
 }
