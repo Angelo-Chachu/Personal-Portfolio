@@ -6,13 +6,14 @@
   margin-left: 50rem;
   margin-top :10rem;
   margin-bottom: 20;
+   rgb(217, 247, 247);
 
 } */
 .tit
 {
   height:100vh;
   width: 100%;
-  background-color: rgb(217, 247, 247);
+  background-color:  #827397;
   /* background: url("../../../assets/frontdev..png") no-repeat center; */
 }
 
@@ -98,19 +99,19 @@ body {
 
 .content h2:nth-child(1) {
   color: transparent;
-  -webkit-text-stroke: 2px #ee6b8a;
+  -webkit-text-stroke: 2px #E9D5DA;
 }
 
 .content h2:nth-child(2) {
-  color: #ee6b8a;
+  color: #E9D5DA;
   animation: animate 4s ease-in-out infinite;
 }
 .content h2:nth-child(3) {
   color: transparent;
-  -webkit-text-stroke: 2px #ee6b8a;
+  -webkit-text-stroke: 2px #E9D5DA;
 }
 .content h2:nth-child(4) {
-  color: #ee6b8a;
+  color: #E9D5DA;
   animation: animate 4s ease-in-out infinite;
 }
 

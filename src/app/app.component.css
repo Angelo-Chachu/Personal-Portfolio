@@ -1,3 +1,23 @@
 nav{
     background-color: #A05987;
 }
+
+.top {
+    font-size: 1.5rem;
+  --offset: 50px; 
+  text-align: center;
+  position: sticky;
+  left: 100%;
+  bottom: 20px;
+  place-self: start;
+  width:50px;
+  margin-top: calc(100vh + var(--offset));
+  /* visual styling */
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #E9D5DA;
+  background: #363062;
+
+  white-space: nowrap;
+}
